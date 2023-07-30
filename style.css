@@ -1,0 +1,571 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(240, 236, 236, 0.881);
+
+}
+
+.navbar img{
+    width: 40px;
+    margin-left: 100px;
+    
+}
+.g{
+    margin-left: 450Px;
+}
+a{
+text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+    box-shadow:1px 1px 1px #bdb9b9 ;
+    
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+}
+
+.navbar ul li a{
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.navbar button{
+   background-color: rgb(24, 107, 11);
+   color: white;
+   border-radius: 5px;
+   margin-right: 100px;
+   
+}
+
+.navbar ul li a:hover{
+    color: brown;
+    background-color: rgb(16, 15, 16);
+    border-radius: 5px;
+}
+.troisieme{
+    width: 100%;
+    height: 650px;
+    background-color:rgb(176, 234, 159);
+    transform: skew(0deg,0.01 turn);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+   
+
+       
+}
+
+.rond{
+    width: 320px;
+    height: 320px;
+    background-color: #5DAE4724;
+    /*margin-bottom: 100px;
+    margin-left: -30px;*/
+    transform: skew(0deg, -0.01turn);
+    border-radius: 100% 0% 98% 100% / 98% 6% 100% 100% ;
+}
+.titre{
+    margin-top: 280px;
+    transform: skew(0deg, -0.01turn);
+    margin-left: 43px;
+    font-size: 35px;
+    margin-right: 100px;
+}
+
+.titre h2{
+    margin-bottom: 20px;
+}
+.titre button{
+    background-color: rgb(4, 137, 53);
+   color: white;
+   border-bottom-left-radius: 25px;
+   margin-right: 100px;
+   margin-top: 30px;
+   padding: 10px;
+}
+
+.titre p{
+    text-decoration: none;
+}
+
+.point img{
+position: absolute;
+margin-left: -300px;
+}
+    
+.grand-cercle{
+    width: 550px;
+    height: 550px;
+    /*margin-bottom: 100px;
+    margin-left: -30px;*/
+    transform: skew(0deg, -0.01turn);
+    background: url(image/humberto-chavez-FVh_yqLR9eA-unsplash.jpg);
+    background-size: cover;
+    border-radius: 110% 0% 100% 110% / 100% 8% 110% 110% ;
+    border:rgb(4, 137, 53) solid;
+
+}
+
+.cercle {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.imgtext {
+    margin-left: 300px;
+    position: absolute;
+} 
+
+.bleu{
+    position: relative;
+    background-color:rgb(222, 248, 215);
+    width: 650px;
+    height: 600px;
+    border-bottom-left-radius: 50px;  
+}
+.bleu .vert2{
+   
+    width: 311px;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    background: url(image/rian-ramirez-rm7rZYdl3rY-unsplash\ \(3\).jpg);
+    background-size: cover;
+    margin-left: -30px;
+    margin-top: 1px;
+    position: absolute;
+}
+
+
+
+.bleu .rouge{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    border-bottom-left-radius: 50px;
+    background: url(image/no-revisions-3j4EaO-aK_o-unsplash.jpg);
+    background-size: cover;
+    margin-left: 300px;
+    margin-top: 150px;
+     
+    
+}   
+
+.bleu .bleu1{
+    width: 100px;
+    height: 300px;
+    background-color: #339E18;
+    margin-top: 250px;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    
+}
+.bleu .bleu2{
+    width: 100px;
+    height: 400px;
+    margin-left: 500px;
+    background-color: #339E18;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.grand{
+    display: flex;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+.tonton{
+    text-align: center;
+    margin-left:950px ;
+    margin-top: -500px;
+    height: 300px;
+}
+ .tonton .bonjour p{
+    font-size: 30px;
+ }
+.bonjour{
+    width: 700px;
+    height: 100px;
+}
+.bonjour p {
+    font-size: 25px;
+}
+
+.bonsoir{
+    width: 750px;
+    height: 100px;
+}
+.bonsoir p{
+    font-size: 25px;
+}
+
+.aller{
+    width: 900px;
+    height: 250px;
+}
+.aller p{
+    font-size: 25px;
+}
+
+.mail{
+    width: 100px;
+    height: 100px;
+    background: url(image/mail.svg);
+    margin-left: 250px;
+    margin-top: -100px;
+    background-color: #339E18;
+    border-bottom-left-radius: 30px;
+    background-repeat: no-repeat;
+
+}
+.telephone{
+    width:100px ;
+    height: 100px;
+    background: url(image/telephone.svg);
+    margin-left: 450px;
+    margin-top:-100px;
+    background-color: #339E18;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 30px;
+    position: absolute;
+}
+
+.barre{
+    width: 1860px;
+    height: 800px;
+    background-color:rgb(222, 248, 215);
+    margin-top: 400px;
+    border-top-left-radius: 60px;
+}
+.barre .text2{
+    margin-left: 350px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+div.barre .text2 p:nth-child(1){
+    margin-left: 70px;
+    font-size: 70px;
+    margin-top: 40px;
+}
+div.barre .text2 p:nth-child(2){
+    margin-top: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+div.barre .chaud button{
+    width: 200px;
+    height: 80px;
+    background-color:#21481e;
+    margin-left: 1320px;
+    margin-top: 120px;
+    font-size: 25px;
+    border-bottom-left-radius: 30px;
+    color: white;
+    position: relative;
+
+}
+
+div.block{
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    margin-left: -100px;
+}
+
+.pepe{
+    width: 350px;
+    height: 550px;
+    background-color:  rgb(32, 218, 88);
+    margin-left: 200px;
+    border-bottom-left-radius: 40px;
+    margin-top: 370px;  
+}
+
+.abi{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 50px;
+}
+
+.pepe .vare{
+    width: 250px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    position: absolute;
+}
+
+.meme{
+    width: 350px;
+    height: 550px;
+    background-color:  rgb(32, 218, 88);
+    border-bottom-left-radius: 40px;
+    margin-left: 30px;
+    margin-top: 370px;
+
+}
+.tantie{
+    width: 350px;
+    height: 550px;
+    background-color:  rgb(32, 218, 88);
+    border-bottom-left-radius: 40px;
+    margin-left: 30px;
+    margin-top: 370px;
+    
+}
+
+.famille{
+    margin-top: 300px;
+    font-size: 20px;
+    margin-left: 60px;
+    color: white;
+    position: absolute;
+}
+.gras{
+    position: absolute;
+    margin-top: -80px;
+    font-size: 30px;
+    color: white;
+}
+
+.pointure{
+    width: 200px;
+    height: 200px;
+    margin-top: -510px;
+    position: absolute;
+}
+.oui{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    margin-top: 175px;
+    border-radius: 90px;
+    margin-left: 10px;
+}
+.non{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    border-radius: 90px; 
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+.hein{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    border-radius: 90px; 
+    margin-left: 110px;
+    margin-top: -25px;
+}
+.wouu{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    border-radius: 90px; 
+    margin-left: 150px;
+    margin-top: -25px;
+}
+.hum{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    border-radius: 90px; 
+    margin-left: 190px;
+    margin-top: -25px;  
+}
+.chuu{
+    width: 25px;
+    height: 25px;
+    background-color:rgb(177, 247, 157);
+    border-radius: 90px; 
+    margin-left: 250px;
+    margin-top: -25px; 
+} 
+.rondcroix {
+    width: 290px;
+    height: 290px;
+}
+.croixrouge{
+    width: 50px;
+    height: 50px;
+    margin-top: 45px;
+    margin-left: 80px;
+    border-radius: 80px;
+    border :2px solid white;
+}
+
+.croixrouge p{
+    width: 30px;
+    height: 30px;
+    font-size: 70px;
+    margin-left: 3px;
+    margin-top: -18px;
+} 
+.meme .croixrouge{
+    width: 50px;
+    height: 50px;
+    margin-top: 410px;
+    margin-left: 130px;
+}
+.meme .croixrouge p{
+    font-size: 70px;
+    color: white;
+}
+.pepe .croixrouge{
+    margin-top: 110px;
+}
+
+.pirigeois{
+    width: 100px;
+    height: 100px;
+    margin-top: 360px;
+    margin-left: 500px;
+}
+.ehhh{
+    width: 500px;
+    height: 100px;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.visage{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-top: 77px;
+    margin-left: 60px;
+    border-radius: 100px;
+}
+
+.visage img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.ecriture{
+    width: 300px;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: -70px;
+}
+.ecriture p:nth-child(1){
+    font-size: 30px;
+    padding-top: -50Px;
+
+}
+.ecriture p:nth-child(2){
+    height: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.zeinab{
+    margin: 0 auto;
+    height: 500px;
+    width: 50%;
+    margin-top: 350px;
+    top: 50px;
+    background-image: url(image/docteur.webp);
+    background-repeat: no-repeat;background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para
+{
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fleur
+{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.fleure img
+{
+    width: 55%;
+    border-radius: 15px;
+    margin-left: 30px;
+    display:flex;
+}
+
+.fleure p
+{
+    padding: 30px 0;
+    margin-left: 45px;
+    font-size: 20px;
+}
+.fadi{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: #339E18;
+
+}
+.fadi .alida:nth-child(1){
+    background-color: orchid;
+    font-size: 20px;
+    height: 100px;
+    margin-left: 20px;
+}
+.fadi .alida:nth-child(2){
+    background-color: cornflowerblue;
+    font-size: 20px;
+    height: 100px;
+    margin-left: 20px;
+}
+.fadi .alida:nth-child(3){
+    background-color: azure;
+    font-size: 20px;
+    height: 120Px;
+    margin-left: 20px;
+
+}
+.doudou{
+width: 1900px;
+height: 500px;
+background-color: purple;
+margin-top: 150px;
+}
+.enfant{
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+    margin-left: 600px;
+}
