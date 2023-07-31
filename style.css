@@ -70,12 +70,13 @@ text-decoration: none;
 
 .rond{
     width: 320px;
-    height: 320px;
-    background-color: #61f79624;
+    height: 480px;
+    background-color: #b7ee94;
     /*margin-bottom: 100px;
     margin-left: -30px;*/
     transform: skew(0deg, -0.01turn);
     border-radius: 100% 0% 98% 100% / 98% 6% 100% 100% ;
+    margin-left: -50px;
 }
 .titre{
     margin-top: 280px;
