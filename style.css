@@ -6,7 +6,7 @@
 
 body{
     background-color: rgba(240, 236, 236, 0.881);
-
+    overflow-x: hidden; 
 }
 
 .navbar img{
@@ -101,9 +101,10 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.point img{
-position: absolute;
-margin-left: -300px;
+.point {
+    position: absolute;
+    top: 170px;
+    left: 30px;
 }
     
 .grand-cercle{
@@ -223,9 +224,9 @@ margin-left: -300px;
 }
 
 .mail{
-    width: 100px;
-    height: 100px;
-    background: url(image/mail.svg);
+    width: 90px;
+    height: 90px;
+    background: url(image/weight-lifting.png);
     margin-left: 250px;
     margin-top: -100px;
     background-color: #339E18;
@@ -234,9 +235,9 @@ margin-left: -300px;
 
 }
 .telephone{
-    width:100px ;
-    height: 100px;
-    background: url(image/telephone.svg);
+    width:90px ;
+    height: 90px;
+    background: url(image/favorite.png );
     margin-left: 450px;
     margin-top:-100px;
     background-color: #339E18;
@@ -250,7 +251,7 @@ margin-left: -300px;
     height: 800px;
     background-color:rgb(222, 248, 215);
     margin-top: 400px;
-    border-top-left-radius: 60px;
+    border-radius: 11% 89% 0% 10% / 22% 25% 57% 1%;
 }
 .barre .text2{
     margin-left: 350px;
@@ -298,14 +299,40 @@ div.block{
     margin-top: 370px;  
 }
 
-.abi{
+.meme .abi{
     height: 100px;
     width: 100px;
     background-color: white;
     margin-top: 40px;
     position: absolute;
     margin-left: 110px;
-    border-radius: 50px;
+    border-radius: 50px; 
+    background: url(image/brain.png);
+    background-size: cover;
+
+}
+.tantie .abi{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 60px; 
+    background: url(image/yoga.png);
+    background-size: cover;
+}
+
+.pepe .abi{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 50px; 
+    background: url(image/cardiogram.png);
+    background-size: cover;
 }
 
 .pepe .vare{
@@ -342,6 +369,7 @@ div.block{
     margin-left: 60px;
     color: white;
     position: absolute;
+
 }
 .gras{
     position: absolute;
@@ -510,62 +538,281 @@ div.block{
 }
 .fleur
 {
-    display: flex;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    
-}
-.fleure img
-{
-    width: 55%;
-    border-radius: 15px;
-    margin-left: 30px;
-    display:flex;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
-.fleure p
-{
-    padding: 30px 0;
-    margin-left: 45px;
-    font-size: 20px;
+.fleure{
+    margin-left: 100px;
+    width: 33%;
+    display: block;
+    justify-content:center;
+    align-items: center;
 }
+
+.fleure img{
+    width: 80%;
+    height: 300px;
+}
+
+.fleure p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 .fadi{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 25px;
+    word-wrap: break-word;
     margin-left: 50px;
     margin-top: 50px;
-    background-color: #339E18;
 
 }
 .fadi .alida:nth-child(1){
-    background-color: orchid;
+    width: 33.3%;
+    word-wrap: break-word;
     font-size: 20px;
     height: 100px;
     margin-left: 20px;
 }
 .fadi .alida:nth-child(2){
-    background-color: cornflowerblue;
+    width: 33.3%;
+    word-wrap: break-word;
     font-size: 20px;
     height: 100px;
     margin-left: 20px;
 }
 .fadi .alida:nth-child(3){
-    background-color: azure;
+    width: 33.3%;
+    word-wrap: break-word;
     font-size: 20px;
     height: 120Px;
     margin-left: 20px;
+}
+
+/* .enfant{
+    width: 50%;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(15, 177, 99);
+    position: relative;
+    top: 100px;
+    border-bottom-left-radius: 80px;
+    line-height: 50px;
+}
+.enfant .paragph,.bouton{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.bouton button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 50%;
+    font-size: 1.5em;
+    background-color: rgb(15, 177, 99);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.moko{
+    height: 20px;
+    font-size: 3em;
+    color: white;
+    line-height: 1px;
+}
+   
+.kok{
+    font-size: 2em;
+    color: #fff;
+    line-height: 1px;
+    margin-top: 5px;
+} */
+
+
+.doudou{
+    display: flex;
+    width: 2200px;
+    height: 800px;
+    background-color: #e9f9e5;
+    border-radius: 11% 89% 0% 10% / 22% 25% 57% 1%;
+}
+
+.bottom
+{
+    position: relative;
+    top: 100px;
+    background-color: rgb(3, 143, 57);
+    display: flex;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    border-bottom-left-radius: 100px;
+}
+.enfant1
+{
+    padding: 50px 100px;
+    width: 130%;
+    margin: 0 auto;
+}
+.enfant1 h3
+{
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.enfant1 h5
+{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+   margin-bottom: 40px;
+}
+.bouton 
+{
+    width: 300px;
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    font-family: serif;
+    margin: 0 0 0 0px;
+    font-size: 25px;
+    background-color: rgb(3, 143, 57)
+}
+.bouton a
+{
+    color: #fff;
+   text-decoration: none;
+}
+.enfant2
+{   position: relative;
+    top: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 400px;
+}
+.enfant2 img
+{
+    border-bottom-left-radius: 30px;
+    width: 100%;
+    height: 400px;
 
 }
-.doudou{
-width: 1900px;
-height: 500px;
-background-color: purple;
-margin-top: 150px;
+/* .enfant img{
+    display: flex;
+    width: 100px;
+    height: 100px;
 }
-.enfant{
-    width: 800px;
-    height: 400px;
-    background-color: blue;
-    margin-left: 600px;
+.go
+{
+ background-color: #21481e;   
+} */
+
+.navbottom
+{
+    margin: 230px 160px;
+}
+.navbottom h1
+{
+    font-size: 60px;
+}
+.navHome ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none ;
+}
+.navHome ul li a
+{
+    padding: 10px;
+    margin: 20px ;
+    text-decoration: none;
+}
+.navHome{
+    margin: 40px;
+    margin-left: -490px;
+
+}
+.icons
+{
+    position: absolute;
+    top: 4950px;
+    left: 120px;
+    display: flex;
+}
+.icon
+{
+    background-color: #47b42c;
+    border-radius: 100%;
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.newletter
+{
+    margin-top: 250px;
+    margin-left: 400px;
+}
+.newletter p
+{
+    font-family: serif;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.newletter h2
+{
+    font-family: serif;
+    font-size: 30px;
+}
+.newletter .bout1 ,.bout
+{
+    font-family: "Poppins",sans-serif;
+    width: 350px;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    padding: 15px 5px;
+}
+.bout1 
+{
+    background-color: #fff;
+}
+.bout 
+{
+    
+    background-color: #21481e;
+    border: none;
+}
+.bout a
+{
+    
+    color: #fff;
+}
+.oo{
+    margin-top: -50px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.fleche{
+    width: 100px;
+    height: 100px;
+    background-color: #339E18;
+    margin-left: 1500px;
+    margin-top: -100px;
+    border-radius: 45px;
+    
 }
